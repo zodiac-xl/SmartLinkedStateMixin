@@ -77,12 +77,12 @@ var SmartLinkedStateMixin = {
         var newState = context.state;
 
 
-        targetState = NestLinkedStateMixin.nestObject(newState, stateArr).getValue();
+        targetState = SmartLinkedStateMixin.nestObject(newState, stateArr).getValue();
 
         return {
             value: targetState,
             requestChange: function (newValue) {
-                newState = NestLinkedStateMixin.nestObject(newState, stateArr).setValue(newValue);
+                newState = SmartLinkedStateMixin.nestObject(newState, stateArr).setValue(newValue);
                 context.setState(newState);
             }
         }

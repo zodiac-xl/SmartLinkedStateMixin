@@ -1,6 +1,6 @@
 {
   "name": "react-smart-link-state",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "A React mixin for linking form fields to a deep structure of data within the component's state.",
   "main": "index.js",
   "scripts": {
@@ -30,9 +30,6 @@
     "url": "https://github.com/zodiac-xl/SmartLinkedStateMixin/issues"
   },
   "homepage": "https://github.com/zodiac-xl/SmartLinkedStateMixin",
-  "dependencies": {
-    "react": "^0.14.0"
-  },
   "_npmUser": {
     "name": "wuxiaolong",
     "email": "wxlgame0105@163.com"
