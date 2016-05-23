@@ -39,7 +39,7 @@ var SmartLinkedStateMixin = {
 
             var rs = source[stateArr[index]];
 
-            if (rs) {
+            if (rs != undefined && rs != null) {
                 if (index != stateArr.length - 1) {
                     rs = get(rs, stateArr, index + 1);
                 }
